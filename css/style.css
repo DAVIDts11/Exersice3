@@ -1,0 +1,266 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header, main, footer, nav, aside, section, div  {
+    display: block;
+}
+
+
+
+#wrapper {
+    margin: 0 auto;
+    width: 600px;
+
+}
+
+body{
+    background-color: #d8d8d8;
+    background-image:   url(../images/back_pas.png);
+    background-repeat: repeat-x;
+}
+
+header {
+    height: 42px;
+    background-color: #3f3f3f;
+}
+
+#logo{
+    display: block;
+    background-image: url(../images/logo1.png) ;
+    height: 42PX; 
+    width: 42px;
+    margin: 0 auto;
+    /* margin-top: 10px; */
+}
+
+
+#hamburger{
+    display: none;
+}
+
+main {  
+    width: 70%;
+    height:  420px;
+    position: relative;
+    background-color: cornsilk;
+    float: left;
+}
+
+
+#indexNav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 420px;
+    float: right;
+    width: 30%;
+    position: relative;
+    background-color: cyan;
+
+}
+
+
+
+#layout1Nav{
+    height: 90px;
+    background-image: url(../images/back_pas.png);
+}
+
+#layout1Nav ul{
+    display: flex;
+    padding-top: 33px;
+    vertical-align: middle;
+    justify-content: space-around;
+  
+}
+
+#layout1Nav ul li{
+    display: inline;
+}
+
+a{
+    font-family: Arial, Helvetica, sans-serif ;
+}
+
+a:hover{
+  font-size: large;  
+}
+
+/* a:visited{
+    color:blueviolet;
+} */
+
+main article{
+   position: absolute;  
+   border: 5px solid #ff4500;
+   background-color: floralwhite;
+}
+
+
+#indexMain #cube1{   
+    left: 10px;
+    top: 45px;
+    width: 88px;
+    height: 150px;
+}
+
+#indexMain #cube3{
+    left: 175px;
+    top: 10px;
+    width: 200px;
+    height: 140px;
+}
+
+
+
+#indexMain #cube2{
+    left: 140px;
+    top: 225px;
+    width: 87px;
+    height: 150px;
+}
+
+
+#layout1Main {  
+    width: 83%;
+    height: 325px;
+    float: right;
+}
+
+
+aside{
+    height: 325px;
+    background-color:gold ;
+    width:15% ;
+    border-right: 5px solid black;
+    float: left;
+}
+
+
+#layout1Main #cube1{
+    left: 25px;
+    top: 210px;
+    width: 133px;
+    height: 50px;
+}
+
+
+
+#layout1Main #cube2{
+    left: 180px;  
+    top: 120px;
+    width: 200px;
+    height: 140px;
+}
+
+#lala{
+    height: 50px;
+    width: 50px;
+    background-color: chartreuse;
+}
+
+#layout1Main #cube3{
+    left: 235px;
+    top: 35px;
+    width: 60px;
+    height: 45px;
+}
+
+
+
+#layout1Main #cube4{
+    left: 320px;
+    top: 35px;
+    width: 60px;
+    height: 45px;
+}
+
+
+
+#layout2Nav{
+    height: 78px;
+    background-image: url(../images/back_nav3.png);
+}
+
+#layout2Nav ul{
+    display: flex;
+    padding-top: 28px;
+    vertical-align: middle;
+    justify-content: space-around;
+  
+}
+
+#layout2Nav ul li{
+    display: inline;
+}
+
+#layout2Main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 100%;
+    /* height: 335px; */
+    height: 3150px;
+}
+
+#layout2Main article{
+    position: relative;
+    margin: 25px ; 
+    height:150px ;
+    width: 100px;
+    /* border: 5px solid #ff4500; */
+}
+
+.clear{
+    clear: both;
+}
+
+
+footer{
+
+    height: 30px;
+    background-color: #3f3f3f;
+    /* display: fixed; */
+    position: sticky; 
+    bottom: 0;
+}
+
+
+
+@media (max-width: 500px ){
+    #hamburger{
+        display: block;
+        background-image: url(../images/icons8-menu-32.png);
+        position: relative;
+        left: 10px;
+        bottom: 10px;
+        height: 32PX; 
+        width:  32px;
+    }
+    #layout2Main{
+        height:4850px;
+    }
+    #wrapper { 
+        width: 100%;  
+    }
+} 
+
+
+
+/* --------------------------------------------------------------- */
+
+#firstLetter:hover{
+    background-image: url(../images/d2.png);
+}
+
+
+header button{
+    height: 30px;
+    width: 50px;
+    float: left; 
+}
+
+
+
